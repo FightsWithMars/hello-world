@@ -1,15 +1,41 @@
 body {
     background-color: gray;
-    margin: 0;
-    padding: 0;
-    font-family: "monospace", Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    font-family: "monospace, Arial, Helvetica, sans-serif;"
+}
+h1, h2 {
+    background-color: #ccc;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 5px;
+    border-style: double;
+    border-width: 5px;
+    border-color:rgba(7, 4, 182, 0.486)
 }
 div {
-    width: auto;
+    width: 500px;
     margin: 5em auto;
     padding: 50px; 
     background-color: #fff;
     border-radius: 1em;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-form {
+img {
+    display: block;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #ccc;
+    margin: 5em auto;
+}
+hr  {
+    background-color: rgba(202, 6, 6, 0.486);
+    height: 3px;
+    width: 50%;
+}
+#bottompage {
+    color: whitesmoke;
+    background-color: rgba(22, 1, 1, 0.486);
+    padding: 30px;
+    
 }
