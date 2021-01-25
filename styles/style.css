@@ -1,7 +1,5 @@
 body {
-    background-color: gray;
-    margin: 20px;
-    padding: 10px;
+    background: linear-gradient(45deg,#696969,#ffffff);
     font-family: "monospace, Arial, Helvetica, sans-serif;"
 }
 h1, h2 {
@@ -33,7 +31,7 @@ hr  {
     height: 3px;
     width: 50%;
 }
-#bottompage {
+footer {
     color: whitesmoke;
     background-color: rgba(22, 1, 1, 0.486);
     padding: 30px;
