@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: gainsboro;
+  border-bottom: 1px black solid;
+}
+
+#navbar ol {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+#navbar li {
+  margin-right: 5px;
+}
+
+#navbar li a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: black;
+}
+
+#navbar li a:hover {
+  background-color: rgb(129, 129, 243);
+}
+
+#navbar li ul {
+  list-style: none;
+  position: absolute;
+  display: none;
+}
+
+#navbar li:hover ul {
+  display: block;
+  background-color: gainsboro;
+}
+
+#navbar li li {
+  border-bottom: 1px solid black;
+  margin: 0;
+}
+
+input {
+  display: block;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div id="wrapper">
+<header>
+    <div id="page-banner">
+        <h1 class="title">Bookarama</h1>
+        <p>Books for Ninjas</p>
+        <form id="search-books">
+            <input type="text" placeholder="Search books...">
+        </form>
+    </div>
+</header>
+
+<div id="book-list">
+    <h2 class="title">Books to Read</h2>
+    <ul>
+        <li>
+            <span class="name">Name of the Wind</span>
+            <span class="delete">Delete</span>
+        </li>
+        <li>
+            <span class="name">Wise Man</span>
+            <span class="delete">Delete</span>
+        </li>
+        <li>
+            <span class="name">Cool Dude</span>
+            <span class="delete">Delete</span>
+        </li>
+    </ul>
+</div>
+
+<form id="add-book">
+    <input type="text" placeholder="Add a book...">
+    <button>Add</button>
+</form>
+
+</div>    
+
+<div class="container">
+<h1>
+    Counter
+</h1>
+<span id="value">0</span>
+<div class="button-container">
+    <button class="buttons decrease">decrease</button>
+    <button class="buttons reset">reset</button>
+    <button class="buttons increase">increase</button>
+</div>
+</div>
+
+<script src="todo.js"></script>
+</body>
+</html>
